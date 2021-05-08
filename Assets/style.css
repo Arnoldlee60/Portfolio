@@ -1,0 +1,32 @@
+/* Header/Logo Title */
+body {background-color: gray;}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5;
+    background-color: #13293d;
+    color: #fff;
+    background-image: url("https://i.giphy.com/media/26tn33aiTi1jkl6H6/giphy.webp")
+  }
+  h1, header{
+    display: flex;
+    justify-content: space-between;
+    min-width: 50px; 
+    list-style-type: none;
+    text-shadow: 2px 2px black;
+  }
+
+  a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a:hover{
+        color: gray;
+  }
+ 
