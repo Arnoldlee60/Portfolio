@@ -1,6 +1,8 @@
 /* Header/Logo Title */
 body {background-image: url("https://wallpapercave.com/wp/wp2863958.gif")}
-
+html{
+    scroll-behavior: smooth;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -58,4 +60,8 @@ img{
     text-indent: -9999px;
     width: 981px;
     height: 180px;
+  }
+
+  #section2{
+      display: block;
   }
