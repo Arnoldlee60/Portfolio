@@ -1,5 +1,5 @@
 /* Header/Logo Title */
-body {background-color: gray;}
+body {background-image: url("https://wallpapercave.com/wp/wp2863958.gif")}
 
 header {
     display: flex;
@@ -11,7 +11,8 @@ header {
     padding-bottom: 5;
     background-color: #13293d;
     color: #fff;
-    background-image: url("https://i.giphy.com/media/26tn33aiTi1jkl6H6/giphy.webp")
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("https://coverfiles.alphacoders.com/502/50210.jpg");
   }
   h1, header{
     display: flex;
@@ -26,7 +27,35 @@ header {
     font-weight: bold;
     text-decoration: none;
   }
+
   a:hover{
         color: gray;
   }
- 
+  main {
+    display: flex;
+    flex: 1 1 0;
+    max-width: 96%;
+    margin: 2% auto;
+    color: white;
+  }
+  section {
+    display: block;
+}
+article {
+  border-bottom: 1px solid lightblue;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+#github {
+    background-image: url(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png);
+    display: block;
+    margin: 0 auto;
+    text-indent: -9999px;
+    width: 981px;
+    height: 180px;
+  }
