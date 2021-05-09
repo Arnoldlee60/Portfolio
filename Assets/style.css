@@ -25,7 +25,7 @@ header {
   }
 
   a{
-    color: white;
+    color: yellow;
     font-weight: bold;
     text-decoration: none;
   }
@@ -44,8 +44,9 @@ header {
     display: block;
 }
 article {
-  border-bottom: 1px solid lightblue;
+  border-bottom: 1px solid white;
 }
+
 img{
     display: block;
     margin-left: auto;
@@ -61,7 +62,49 @@ img{
     width: 981px;
     height: 180px;
   }
-
-  #section2{
-      display: block;
+    
+  .square {
+    display: flex;
+    background: url("https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2016Q4/8-steps-to-build-a-project-management-timeline@2x.png") 50% 50% no-repeat;
+    width: 800px;
+    height: 500px;
+    list-style-type: none;
+    
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+  }
+  
+  .square:hover {
+    opacity: 0.5;
+  }
+  .square a {
+    display: block;
+    width: 800px;
+    height: 500px;
+    text-align: center;
+    
+  }
+  .squareSmall{
+    display: block;
+    background: url("https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2016Q4/8-steps-to-build-a-project-management-timeline@2x.png") 50% 50% no-repeat;
+    width: 350px;
+    height: 250px;
+    list-style-type: none;
+ 
+  
+  }
+  .squareSmall a{
+    display: block;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    
+    
+  }
+  
+  .table{
+  display: flex;
+  flex-wrap: wrap;
   }
