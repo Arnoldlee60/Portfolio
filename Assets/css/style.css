@@ -1,5 +1,5 @@
 /* Header/Logo Title */
-body {background-image: url("https://wallpapercave.com/wp/wp2863958.gif")}
+body {background-image: url("https://wallpapercave.com/wp/wp2863958.gif") !important}
 html{
     scroll-behavior: smooth;
 }
@@ -73,7 +73,7 @@ img{
   footer {
     width: 100%;
     bottom: 0;
-    padding: 20px;
+    padding: 20px; 
     text-align: center;
     background: var(--dark-blue);
     color: var(--white);
