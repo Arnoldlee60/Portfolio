@@ -15,6 +15,7 @@ header {
     color: #fff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url("https://coverfiles.alphacoders.com/502/50210.jpg");
+    text-align: center;
   }
   h1, header{
     display: flex;
@@ -63,48 +64,58 @@ img{
     height: 180px;
   }
     
-  .square {
+
+  main {
     display: flex;
-    background: url("https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2016Q4/8-steps-to-build-a-project-management-timeline@2x.png") 50% 50% no-repeat;
-    width: 800px;
-    height: 500px;
-    list-style-type: none;
-    
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-  
+    flex-wrap: wrap;
   }
   
-  .square:hover {
-    opacity: 0.5;
-  }
-  .square a {
-    display: block;
-    width: 800px;
-    height: 500px;
+  footer {
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
     text-align: center;
-    
-  }
-  .squareSmall{
-    display: block;
-    background: url("https://d2slcw3kip6qmk.cloudfront.net/marketing/blog/2016Q4/8-steps-to-build-a-project-management-timeline@2x.png") 50% 50% no-repeat;
-    width: 350px;
-    height: 250px;
-    list-style-type: none;
- 
-  
-  }
-  .squareSmall a{
-    display: block;
-    width: 300px;
-    height: 300px;
-    text-align: center;
-    
-    
+    background: var(--dark-blue);
+    color: var(--white);
+    margin-top: auto;
   }
   
-  .table{
-  display: flex;
-  flex-wrap: wrap;
+  .stuff {
+    flex: 1;
+    background-color: var(--white);
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+  }
+  
+  .card {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    flex: 0 0 300px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    margin: 20px;
+  }
+  
+  .card > header {
+    /* This is the same as `border-radius: 50px 50px 0 0 */
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    padding: 20px;
+
+  }
+  
+  .card > img {
+    width: 100%;
+  }
+  #bigImage{
+    display:block;
+    margin: 0px auto;
+    padding: 0px 15px 0px 15px;
+    border: none;
+    background: url(https://www.pngarts.com/files/7/Remote-Work-PNG-Image-Transparent.png) no-repeat bottom;
+    width: 1000px;
+    height: 50px; 
   }
