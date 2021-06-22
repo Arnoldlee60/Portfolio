@@ -1,90 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="has-background-light">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Assets/css/style.css" />
-
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <title>Arnold Lee Portfolio Page</title>
 </head>
-    <body>
-    <header >
-                <h1>Arnold Lee</h1>   
-                <h1><a href="#section1">About Me</a></h1> <!--Scroll down to the section-->
-                <h1><a href="#section2">Work</a></h1>
-                <h1><a href="#section3">Contact Information</a></h1>
-        </header>
-    </body>
-
-    <main>
-        <section>
-          <main>
-<h2 id="section1"> Bio</h2>
-
-            <img src="https://aux.iconspalace.com/uploads/1408846278.png" alt="Me">
-            <div>
-              <p>
-                My name is Arnold Lee. I am a 24 year old college junior at University of Texas at San Antonio persuing a degree in Computer Science.
-                I am currently also enrolled in the UTSA Coding Bootcamp. 
-              </p>
-              
-              <p>
-                I graduated High School at Redlands East Valley High School.
-                Afterwards, I joined the United States Army as a eye technician to pay for college.
-                After realising that I did not want to work in the medical field.
-                I decided to switch careers into computer science.
-                I hope to be a full stack developer one day.
-              </p>
-   
-            </div>
-          </article>
+<body>
   
-
-
-
-            <article class="table">
-<h2 id="section2">Work</h2>
-
-<main>
-    <div class="stuff">
-      <section class="card">
-        <header><a href="https://www.google.com/">Project 1</a></header>
-        <img src="https://www.pngarts.com/files/7/Remote-Work-PNG-Image-Transparent.png" alt="p1" />
-        <a id="bigImage"></a>
-      </section>
-      <section class="card">
-        <header><a href="https://www.google.com/">Project 2</a></header>
-        <img src="https://www.pngarts.com/files/7/Remote-Work-PNG-Image-Transparent.png" alt="p2" />
-      </section>
-      <section class="card">
-        <header><a href="https://www.google.com/">Project 3</a></header>
-        <img src="https://www.pngarts.com/files/7/Remote-Work-PNG-Image-Transparent.png" alt="p3" />
-      </section>
-      <section class="card">
-        <header><a href="https://www.google.com/">Project 4</a></header>
-        <img src="https://www.pngarts.com/files/7/Remote-Work-PNG-Image-Transparent.png" alt="p4" />
-      </section>
+  
+  <section class="hero is-link is-small ">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+          <div class="navbar-brand">
+            <a class="navbar-item">
+             Arnold Lee
+            </a>
+          
+          </div>
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-primary">
+                  <strong>About me</strong>
+                </a>
+                <a class="button is-primary">
+                  <strong>Work Experience</strong>
+                </a>
+                <a class="button is-primary">
+                  <strong>Contact Information</strong>
+                </a>
+                <a class="button is-primary">
+                  <strong>Resume</strong>
+                </a>
+              </div>
+            </div>
+          </div>
+      </nav>
     </div>
-  </main>
+  
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body ">
+      <div class="container has-text-centered">
+        <p class="title">
+          <figure class="image is-inline-block">
+            <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+          </figure>
+        </p>
+        <p class="subtitle">
+          Arnold Lee
+        </p>
+        <p>
+          Junior at University of Texas at San Antonio & Student at UTSA Coding Bootcamp 
+        </p>
+      </div>
+    </div>
+  
+    <!-- Hero footer: will stick at the bottom -->
+  </section>
+
+ <!--break -->
+  <div class="container" style="margin-bottom: 10px;">
+    <div class="notification is-link">
+      <h1>About me</h1>
+      <br>
+     <p>My name is Arnold Lee. I am a 24 year old college junior at University of Texas at San Antonio persuing a degree in Computer Science. I am currently also enrolled in the UTSA Coding Bootcamp.
+
+      I graduated High School at Redlands East Valley High School. Afterwards, I joined the United States Army as a eye technician to pay for college. After realising that I did not want to work in the medical field. I decided to switch careers into computer science. I hope to be a full stack developer one day.</p>
+    </div>
+  </div>
+  <!--break -->
+  <!--
+  <div class="container has-text-centered" style= "margin-bottom: 10px;" >
+    <div class="notification is-link">
+      <h1>Projects</h1>
+      <figure class="image is-inline-block" style="float: left;">
+        <img src="https://bulma.io/images/placeholders/256x256.png">
+      </figure>
+     
+    </div>
+  </div>
+-->
 
 
-
-            </article>
-
-
-
-
-
-
-            <article>
-<h2 id="section3">Contact Information</h2>
-                <p><a href="https://www.google.com/">Email: email@email.com</a></p> 
-                <p><a href="https://www.google.com/">Phone: (210) 123-1234</a></p>
-                <p><a href="https://www.linkedin.com/">LinkedIn: person1@linkedin.com</a></p>
-                <p><a href="https://github.com/">github: github.com/person/</a></p>
-                <p>The links dont go anywhere I just didnt want to put personal info yet</p>
-              </article>
-          </section>
-      </main>
+  <div class="container has-text-centered">
+    <div class="notification is-link">
+      <h1>Projects</h1>
+      <br>
+      <figure class="image is-inline-block">
+        <img class="is-square" src="https://bulma.io/images/placeholders/128x128.png">
+      </figure>
+    </div>
+  </div>
+  
+  
+</body>
 </html>

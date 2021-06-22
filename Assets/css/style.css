@@ -1,121 +1,16 @@
-/* Header/Logo Title */
-body {background-image: url("https://wallpapercave.com/wp/wp2863958.gif")}
-html{
-    scroll-behavior: smooth;
+.navbar{
+
+  margin: 10px;
 }
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 5;
-    background-color: #13293d;
-    color: #fff;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url("https://coverfiles.alphacoders.com/502/50210.jpg");
-    text-align: center;
-  }
-  h1, header{
-    display: flex;
-    justify-content: space-between;
-    min-width: 50px; 
-    list-style-type: none;
-    text-shadow: 2px 2px black;
-  }
-
-  a{
-    color: yellow;
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  a:hover{
-        color: gray;
-  }
-  main {
-    display: flex;
-    flex: 1 1 0;
-    max-width: 96%;
-    margin: 2% auto;
-    color: white;
-  }
-  section {
-    display: block;
+.navbar-item{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
 }
-article {
-  border-bottom: 1px solid white;
+h1{
+  text-align: center;
+  border-bottom: solid;
+  padding-bottom: 10px;
 }
-
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
+.hero{
+  margin: 10px;
 }
-
-#github {
-    background-image: url(https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png);
-    display: block;
-    margin: 0 auto;
-    text-indent: -9999px;
-    width: 981px;
-    height: 180px;
-  }
-    
-
-  main {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  footer {
-    width: 100%;
-    bottom: 0;
-    padding: 20px; 
-    text-align: center;
-    background: var(--dark-blue);
-    color: var(--white);
-    margin-top: auto;
-  }
-  
-  .stuff {
-    flex: 1;
-    background-color: var(--white);
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-  }
-  
-  .card {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: var(--border-radius);
-    padding: 10px;
-    flex: 0 0 300px;
-    box-shadow: 10px 10px 5px #aaaaaa;
-    margin: 20px;
-  }
-  
-  .card > header {
-    /* This is the same as `border-radius: 50px 50px 0 0 */
-    border-radius: var(--border-radius) var(--border-radius) 0 0;
-    padding: 20px;
-
-  }
-  
-  .card > img {
-    width: 100%;
-  }
-  #bigImage{
-    display:block;
-    margin: 0px auto;
-    padding: 0px 15px 0px 15px;
-    border: none;
-    background: url(https://www.pngarts.com/files/7/Remote-Work-PNG-Image-Transparent.png) no-repeat bottom;
-    width: 1000px;
-    height: 50px; 
-  }
